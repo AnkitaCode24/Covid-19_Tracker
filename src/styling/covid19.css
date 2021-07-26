@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  background-image: url(../assets/covid2.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding: 0 80px;
+}
+.heading {
+  color: brown;
+  text-align: center;
+  padding: 40px;
+}
+.heading h1 {
+  text-transform: uppercase;
+  word-spacing: 30px;
+  font-size: 52px;
+}
+.card-main {
+  margin-bottom: 25px;
+}
+/* .card-inner {
+  background-color: azure;
+  height: 250px;
+} */
+.card-name {
+  text-align: center;
+  font-size: 34px;
+  color: blue;
+  font-weight: bold;
+  padding: 30px 0 30px 0;
+}
+.card-name span {
+  font-size: 18px;
+  color: green;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+.card-total {
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 44px;
+  color: purple;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 30px;
+}
